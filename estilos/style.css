@@ -1,0 +1,45 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    text-align: center; /*Centraliza o que tem dentro*/
+    background-image: linear-gradient(to bottom, red, white);
+}
+
+main{
+    display: inline-block; /*Seleciona so o espaço da pokedex*/   
+    position: relative;
+    margin-top: 40px;
+}
+
+.imgPokedex{
+    width: 35vw;
+    height: 65vh;
+    min-width: 175px;
+    min-height:235px;
+    
+}
+
+.imgPokemon{
+    position: absolute;
+}
+
+.Data_Pokemon{
+    position: absolute;
+    top: 54.5%;
+    right: 27%;
+    font-size:clamp(2vw, 2.7vw, 3vw);
+
+}
+
+.Poke_Name{
+    text-transform: capitalize;
+}
