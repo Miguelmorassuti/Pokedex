@@ -17,7 +17,7 @@ body {
 main{
     display: inline-block; /*Seleciona so o espaço da pokedex*/   
     position: relative;
-    margin-top: 40px;
+    margin-top: 120px;
 }
 
 .imgPokedex{
